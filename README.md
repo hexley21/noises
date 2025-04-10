@@ -18,13 +18,19 @@ Visualizations different noiseand, for now, only Perlin noise is supported.
 1. **Build the application:**
 
    ```bash
-   go build -o perlin_noise
+   make
+   ```
+
+   or
+
+   ```bash
+   go build -o ./bin/perlin_noise ./cmd/main.go
    ```
 
 2. **Run the application:**
 
    ```bash
-   ./perlin_noise
+   ./bin/perlin_noise
    ```
 
 3. **View the outputs:**
